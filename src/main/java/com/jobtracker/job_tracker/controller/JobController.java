@@ -18,7 +18,6 @@ import com.jobtracker.job_tracker.service.JobService;
 
 @RestController
 @RequestMapping("/api/jobs")
-@CrossOrigin(origins = "http://localhost:3000")
 
 public class JobController {
     private final JobService jobService;
